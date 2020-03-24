@@ -15,6 +15,7 @@
 ### Dockerを使用する方
 
 `docker/docker-compose.yml` をリポジトリ直下にコピーし `$ docker-compose build` を実行。
+
 ※ RailsのDockerサービス名は `app` としています。
 
 ### インストール、設定
@@ -50,6 +51,7 @@ $ bundle exec foreman start
 #### 環境変数設定
 
 AWSアクセスキー、デプロイ時SSH秘密鍵の設定
+
 ※ Docker使用の場合は `docker-compose.yml` の `environment` に書くのがオススメです。
 
 ```
